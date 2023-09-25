@@ -82,18 +82,18 @@ class SplashScreen(QMainWindow):
         self.timer.start(35)
 
         # Change Texts
-        QtCore.QTimer.singleShot(
-            1500,
-            lambda: self.ui.label_description.setText(
-                "<strong>LOADING</strong> DATABASE"
-            ),
-        )
-        QtCore.QTimer.singleShot(
-            3000,
-            lambda: self.ui.label_description.setText(
-                "<strong>LOADING</strong> USER INTERFACE"
-            ),
-        )
+        # QtCore.QTimer.singleShot(
+        #     1500,
+        #     lambda: self.ui.label_description.setText(
+        #         "<strong>LOADING</strong> DATABASE"
+        #     ),
+        # )
+        # QtCore.QTimer.singleShot(
+        #     3000,
+        #     lambda: self.ui.label_description.setText(
+        #         "<strong>LOADING</strong> USER INTERFACE"
+        #     ),
+        # )
 
         ## SHOW ==> MAIN WINDOW
         ########################################################################
