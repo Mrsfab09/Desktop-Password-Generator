@@ -38,6 +38,7 @@ from ui_splashScreen import Ui_SplashScreen
 
 ## ==> MAIN WINDOW
 from ui_main import Ui_MainWindow
+from generate_password import password_generating
 
 ## ==> GLOBALS
 counter = 0
@@ -80,20 +81,6 @@ class SplashScreen(QMainWindow):
         self.timer.timeout.connect(self.progress)
         # TIMER IN MILLISECONDS
         self.timer.start(35)
-
-        # Change Texts
-        # QtCore.QTimer.singleShot(
-        #     1500,
-        #     lambda: self.ui.label_description.setText(
-        #         "<strong>LOADING</strong> DATABASE"
-        #     ),
-        # )
-        # QtCore.QTimer.singleShot(
-        #     3000,
-        #     lambda: self.ui.label_description.setText(
-        #         "<strong>LOADING</strong> USER INTERFACE"
-        #     ),
-        # )
 
         ## SHOW ==> MAIN WINDOW
         ########################################################################

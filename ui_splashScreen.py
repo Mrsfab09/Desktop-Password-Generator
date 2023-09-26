@@ -103,6 +103,7 @@ class Ui_SplashScreen(object):
             "QProgressBar{\n"
             "	background-color:rgb(98, 114, 164);\n"
             "	color:rgb(200,200,200);\n"
+            "	font-size: 18px;\n"
             "	border-style: none;\n"
             "	border-radius:10px;\n"
             "	text-align:center;\n"
